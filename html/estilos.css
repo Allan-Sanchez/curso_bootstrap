@@ -1,0 +1,39 @@
+body {
+  background: #f0f3f5;
+  color: #fff;
+}
+
+header {
+  background: rgb(75, 218, 146);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contendor_main {
+  margin-bottom: 20px;
+}
+
+main {
+  background: rgb(91, 104, 231);
+  padding: 20px;
+}
+
+aside {
+  background: rgb(18, 52, 75);
+  padding: 60px 0;
+}
+
+.widget {
+  margin-bottom: 20px;
+}
+
+.widget>div {
+  background: rgb(121, 59, 176);
+  /* border: 1px solid #000; */
+  padding: 20px;
+}
+
+footer {
+  background: rgb(64, 187, 139);
+  padding: : 20px 0;
+}

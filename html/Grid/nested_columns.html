@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>nested columns</title>
+  <style media="screen">
+    .container{
+      margin-top: 20px;
+    }
+    .row{
+      background: #e8e8e8;
+    }
+    .columna{
+     border: 1px solid #000;
+     text-align: center;
+     background: #f2f2f2;
+    }
+    .columna_interio{
+      background: #e8e8e8;
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class=" columna col col-md-6">
+      columna 1
+      <div class="row justify-content-around">
+        <div class="columna_interio col-2">column 1</div>
+        <div class="columna_interio col-2">column 2</div>
+      </div>
+      </div>
+      <div class=" columna col">
+      columna 2
+      <div class="row justify-content-between">
+        <div class="columna_interio col-2">column 1</div>
+        <div class="columna_interio col-2">column 2</div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="../js/bootstrap.min.js"> </script>
+  <script type="../js/jquery-3.2.1.min.js"> </script>
+</body>
+
+</html>
